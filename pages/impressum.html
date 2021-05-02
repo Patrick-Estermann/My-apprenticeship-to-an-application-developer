@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+	<head>
+		<meta charset="utf-8">
+		<title>SAO - Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="../assets/favicon.ico">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header><!--beinhaltet den Titel der Seite-->
+				<section id="top-section">
+					<h1 id="maintitle">SWORD ART ONLINE</h1>
+				</section>
+				<!--*****************Handy Menu*****************-->
+				<div id="handyNav">	
+					<a id="menuBar" class="active"></a>
+					<div id="myLinks">
+						<a href="../index.html">Home</a>
+						<a href="story.html">Story</a>
+						<a href="charakteren.html">Charakteren</a>
+						<a href="Entwicklung.html">Entwicklung</a>
+					</div>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					</a>
+				</div>
+				<!--*****************Handy Menu*****************-->
+				<nav id="navigation" class="tabletMode handyMode">
+					<button name="home" onclick="window.location.href = '../index.html';">
+						Home
+					</button>
+					<button name="story" onclick="window.location.href = 'story.html';">
+						Story
+					</button>
+					<button name="charakteren" onclick="window.location.href = 'charakteren.html';">
+						Charakteren
+					</button>
+					<button name="entwicklung" onclick="window.location.href = 'entwicklung.html';">
+						Entwicklung
+					</button>
+				</nav>
+			</header>
+			<div class="cllfx"></div>
+			<main>
+				<section>
+					<article>
+						<h2>Impressum</h2>
+						<p>
+							Jeglicher Code für die erstellung dieser Seite wurde von den "Web Magicians" selber Programmiert.
+							Die "Web Magicians" sind nicht die Urheber der Bilder und Seitentextinhalte der Seiten: Home, Story und Charakteren. Nach Absprache mit der Lehrperson werden diese Bilder und sämtliche Seitentextinhalte ausschliesslich für den Schulischen Ausbildungszweck verwendet und werden nicht Veröffentlicht.<br><br>
+							Header Bild:<br>
+							"Aincrad" Quelle: https://www.pinterest.com/pin/761389880727154263/<br><br>
+							Story Bild:<br>
+							"Eugeo" Quelle: https://al.sao-game.jp/character/chara03.php<br><br>
+							Charaktere Bilder:<br>
+							"Kirito" Quelle: https://www.zerochan.net/2449847 <br>
+							"Crossing swords" Quelle: https://www.pinterest.com/pin/645070346605949428/<br>
+							"Asuna" Quelle: https://weheartit.com/bypnda/collections/116779895-sword-art-online<br>
+							"Leafa" Quelle: https://www.zerochan.net/3031864<br><br>
+							Die "Web Magicians" sind nicht die Urheber der eingebundenen Audio Dateien auf der Seite Home und Story.<br>
+							"Swordland" Quelle: https://dodoconverter.com/index.php?output=yt/ad5TszNUVYI/128%7e%7e1%7e%7eSword_Art_Online_OST_-_01_Swordlandmp3_uuid-5f4ab3e8b2679.mp3<br>
+							"A Tiny Love" Quelle: https://fr05.cutepup.club/529b9b335ae0a23827734/Sword%20Art%20Online%20~%20A%20Tiny%20Love.mp3<br><br>
+							Font "SAOWellcome" Quelle: https://fontmeme.com/schriftarten/sao-ui-schriftart/<br><br>
+							Seitentextinhalt Story Quelle: https://de.wikipedia.org/wiki/Sword_Art_Online<br>
+							Seitentextinhalt Charakteren Quelle: https://swordartonline.fandom.com/de/wiki/Kategorie:Charakter<br><br>
+							Die Urheber des Logos der "Web Magicians" sind Calvin Chan und Patrick Estermann. Das Logo wurde selber erstellt und nicht von Dritten übernommen oder verändert.<br>Das Logo darf nicht von Dritten verwendet werden.
+						</p>
+					</article>	
+				</section>
+			</main>
+			<div class="cllfx"></div>
+			<footer id="footer-down">
+				<section>
+					<article>
+						<p>
+							<a href="mailto:patrick.estermann@wiss-edu.ch">
+								Kontakt
+							</a><br>
+							<a href="impressum.html">
+								Impressum
+							</a>
+						</p>
+						<img class="logo" src="../assets/WebMagician_Logo.png" alt="WebMagician's Logo">
+					</article>
+				</section>
+			</footer>
+		</div><!--End Tag für aussenbereich-->
+		<canvas id="c"></canvas>
+		<audio autoplay loop>
+		<source src="../audio/Sword_Art_Online_Swordland.mp3" type="audio/mp3">
+		Your browser does not support the audio element.
+		</audio>
+		<script src="../js/matrix.js"></script>
+		<script src="../js/handyMenu.js"></script>
+	</body>
+</html>

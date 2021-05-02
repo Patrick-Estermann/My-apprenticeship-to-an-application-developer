@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+	<head>
+		<meta charset="utf-8">
+		<title>SAO - Entwicklung</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="../assets/favicon.ico">
+		<script type="text/javascript" src="../js/responsiveslides.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header><!--beinhaltet den Titel der Seite-->
+				<!--<img src="./imgs/aincrad-header.jpg">-->
+				<section id="top-section">
+					<h1 id="maintitle">SWORD ART ONLINE</h1>
+				</section>
+				<!--*****************Handy Menu*****************-->
+				<div id="handyNav">	
+					<a id="menuBar" class="active"></a>
+					<div id="myLinks">
+						<a href="../index.html">Home</a>
+						<a href="story.html">Story</a>
+						<a href="charakteren.html">Charakteren</a>
+						<a class="onsite" href="Entwicklung.html">Entwicklung</a>
+					</div>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					</a>
+				</div>
+				<!--*****************Handy Menu*****************-->
+				<nav id="navigation">
+					<button name="home" onclick="window.location.href = '../index.html';">
+						Home
+					</button>
+					<button name="story" onclick="window.location.href = 'story.html';">
+						Story
+					</button>
+					<button name="charakteren" onclick="window.location.href = 'charakteren.html';">
+						Charakteren
+					</button>
+					<button class="onsite" name="entwicklung" onclick="window.location.href = 'entwicklung.html';">
+						Entwicklung
+					</button>
+				</nav>
+			</header>
+			<div class="cllfx"></div>
+			<main>
+				<section>
+					<article>
+						<div class="slideshow-container">
+							<!-- Full-width images with number and caption text -->
+							<div class="mySlides fade" style="display: block;">
+								<img src="../imgs/Wireframe-Desktop_Karusel.jpg" style="width:100%">
+								<div class="text">
+									Wireframe Desktop
+								</div>
+							</div>
+							<div class="mySlides fade">
+								<img src="../imgs/Wireframe-Tablet_Karusel.jpg" style="width:100%">
+								<div class="text">
+									Wireframe Tablet
+								</div>
+							</div>
+							<div class="mySlides fade">
+								<img src="../imgs/Wireframe-Smartphone_Karusel.jpg" style="width:100%">
+								<div class="text">
+									Wireframe Smartphone
+								</div>
+							</div>
+							<!-- Next and previous buttons -->
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						</div>
+						<br>
+						<!-- The dots/circles -->
+						<div style="text-align:center">
+							<span class="dot active" onclick="currentSlide(1)"></span>
+							<span class="dot" onclick="currentSlide(2)"></span>
+							<span class="dot" onclick="currentSlide(3)"></span>
+						</div>
+					</article>
+				</section>
+				<section>
+					<article>
+						<h2>
+							Lernvideo
+						</h2>
+						<video controls>
+							<source src="../video/Lernvideo.mp4" type="video/mp4">
+						</video>
+					</article>
+					<br>
+				</section>
+			</main>
+			<div class="cllfx"></div>
+			<footer id="footer-down">
+				<section>
+					<article>
+						<p>
+							<a href="mailto:patrick.estermann@wiss-edu.ch">
+								Kontakt
+							</a><br>
+							<a href="impressum.html">
+								Impressum
+							</a>
+						</p>
+						<img class="logo" src="../assets/WebMagician_Logo.png" alt="WebMagician's Logo">
+					</article>
+				</section>
+			</footer>
+		</div><!--End Tag für aussenbereich-->
+		<canvas id="c"></canvas>
+		<script src="../js/matrix.js"></script>
+		<script src="../js/handyMenu.js"></script>
+	</body>
+</html>
