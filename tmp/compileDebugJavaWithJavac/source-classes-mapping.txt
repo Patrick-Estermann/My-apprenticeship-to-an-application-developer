@@ -1,4 +1,0 @@
-ch/androidnewcomer/saghallo/BuildConfig.java
- ch.androidnewcomer.saghallo.BuildConfig
-ch/androidnewcomer/saghallo/MainActivity.java
- ch.androidnewcomer.saghallo.MainActivity
