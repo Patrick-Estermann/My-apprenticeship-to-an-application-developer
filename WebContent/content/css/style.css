@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face {
+	font-family: Roboto;
+	src: url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+}
+
+body{
+	background-color: rgb(90,90,90) !important;
+	background-image: url("../img/papier.jpg");
+	background-size: 100%;
+	font-family: Roboto !Important;
+	width: 100%;
+	height: 100%;
+}
+
+body div{
+	background-color: rgba(255,255,255,0) !important;
+}
+
+header div img{
+	height: 200px;
+}
+
+.artikelForm{
+	height: 100px;
+	width: 40%;
+	float: left;
+}
+
+.artikelImg img{
+	margin-bottom: 20px;
+	top: 20px;
+	width: 300px;
+	float: left;
+}
+
+#shop-content{
+	width: 60%;
+	margin-left: 20%;
+	font-size: 20px;
+}
+
+#shop-content .form{
+	margin-bottom: 50px;
+	width: 20%;
+	float: left;
+	margin-left: 50px;
+	height: 400px;
+	
+}
+
+.form div img{
+	width: 100%;
+	
+}
+
+form fieldset label{
+	font-size: 20px;
+	width: 150px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.bezahlBtn{
+	right: 50px;
+}
+
+.cllfx{
+	clear: both;
+}
+
+.warenkorb{
+	width: 20%;
+	height:60%;
+	position: fixed;
+	right: 0;
+	top: 280px;
+}
+
+#warenkorb-content{
+	width: 20%;
+	height:60%;
+	position: fixed;
+	right: 0;
+	top: 0;
+	margin-top: 320px;
+	font-size: 20px;
+	overflow-y: auto;
+	border-style: solid;
+}
+
+.user-content{
+	width: 20%;
+	margin: 0 auto;
+	position: fixed;
+	right: 0;
+	top: 20px;
+	font-size: 20px;
+}
+
+.user-content .username-content{
+	height: 33%;
+	width: 100%;
+}
+
+.user-content .password-content{
+	height: 33%;
+	width: 100%;
+}
+
+#userform{
+	width: 100% !Important;
+	height: 260px !Important;
+	margin-left: 0 !Important;
+	margin-bottom: 0 !Important;
+	line-height: 25px;
+}
+
+#userform label{
+	text-align: left;
+	width: 100%;
+}
+
+.btn{
+	background-color: rgb(90,90,90);
+	color: rgb(255,255,255);
+}
+h1{
+	position: fixed;
+	top: 50px;
+	left: 600px;
+	text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white;
+}
+
+.artikelWkImg{
+	width: 150px !important;
+}
+.inhaltWkImg{
+	width: 150px !important;
+}
