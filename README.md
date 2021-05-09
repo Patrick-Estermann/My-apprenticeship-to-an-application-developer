@@ -1,4 +1,6 @@
 # My-apprenticeship-to-an-application-developer
-Collection of project work during my apprenticeship
+Collection of project work during my apprenticeship.
 
 For the Projects go to the Branches.
+
+more Projects are coming soon.
