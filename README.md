@@ -12,3 +12,5 @@ Folgende Plugin wurden in Eclipse installiert:
 Dies War eine Projektarbeit, bei der wir zum ersten mal Java benutzten um einen Webshop zu erstellen.
 Der Webshop ist dabei sehr Simple, weil die verfügbare Zeit des Moduls nicht ausreichte um den Webshop in der Tiefe zu behandeln.
 Für diese Projektarbeit ging es eher darum das Plugin JSt zu benutzen und zu lernen damit umzugehen.
+
+Die Datenbank wurde von der Schule vorgegeben.
